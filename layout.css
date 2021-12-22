@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
+body {
+  margin: 0px;
+  background: rgb(254, 255, 185);
+}
+.container {
+  width: 80vw;
+  height: 100vh;
+  font-size: 1rem;
+  margin: auto;
+}
+
+main {
+  font-family: 'Single Day', cursive;
+}
+main h2 {
+  margin-bottom: 30px;
+}
+.wrapper {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-bottom: 30px;
+}
+/* .buttons {
+  flex: 0.1;
+} */
+.rabong {
+  flex: 0.2;
+}
+.rabong img {
+  height: 100%;
+}
+main button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-family: 'Single Day', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px 0px;
+}
+.msg {
+width: 100%;
+  flex: 0.5;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.msg > p {
+  flex: 1;
+}
+#hidden_mo {
+  display: none;
+}
+#hidden_gak {
+  display: none;
+}
+#hidden_ko {
+  display: none;
+}
+#user_text {
+  display: block;
+  /* display: none; */
+  font-size: 20px;
+}
+input {
+  display: inline-block;
+  width: 250px;
+  height: 25px;
+  margin: 15px;
+}
+.user_btn {
+  width: 80px;
+  margin-left: 40px;
+}

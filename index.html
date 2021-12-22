@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./layout.css" />
+  <script src="./layout.js"></script>
+</head>
+<body>
+  <div class="container">
+    <main>
+      <h2>모각코로 삼행시를 지어봐요♬♪</h2>
+      <div class="buttons">
+        <button id="mo">모</button>
+        <button id="gak">각</button>
+        <button id="ko">코</button>
+      </div>
+      <div class="wrapper">
+
+        <div class="msg">
+          <p id="hidden_mo">모여봐요! 코딩친구들!</p>
+          <p id="hidden_gak">각자하는 코딩은 외롭지만..</p>
+          <p id="hidden_ko">코뮤니티에서 함께하면 외롭지 않아-!!</p>
+        </div>
+        <img  class="rabong"src="./img/rabong_jump.gif" alt="점프하는 한라봉">
+        <img class="rabong" src="./img/rabong_jump.gif" alt="점프하는 한라봉">
+      </div>
+      <div id="user_text">
+        <span>>> 내가 짓는 '모각코' 삼행시</span>
+        <form>
+          <label>모<input id="user_mo" type="text" value=""></label><br>
+          <label>각<input id="user_gak" type="text" value=""></label><br>
+          <label>코<input id="user_ko" type="text" value=""></label><br>
+          <input id="send" class="user_btn" type="button" value="저장">
+          <input id="reset" class="user_btn" type="reset" value="취소">
+        </form>
+      </div>
+    </main>
+  </div>
+  <script src="./threeLines.js"></script>
+</body>
+</html>
